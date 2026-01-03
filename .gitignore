@@ -48,5 +48,9 @@ Thumbs.db
 # Large images
 *.png
 
-# Submodules / external repos
-opensr-model/
+# opensr-model large files (keep code, exclude weights)
+opensr-model/checkpoints/
+opensr-model/*.ckpt
+opensr-model/__pycache__/
+opensr-model/**/__pycache__/
+opensr-model/*.egg-info/
