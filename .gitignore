@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Model checkpoints (large files)
+*.ckpt
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Cache files
+cache/
+
+# Outputs (regenerable)
+outputs/
+
+# Large data files
+*.tif
+*.tiff
+*.geojson
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archive files (too large)
+*.zip
+*.tar.gz
+*.rar
+
+# Large images
+*.png
+
+# Submodules / external repos
+opensr-model/
